@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Website</title>
+	  <style>
+	    *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+   header{
+          background-image: url('bar1.jpeg');
+          background-size:cover ;
+            width: 100%;
+            height: 100vh;
+        
+   }
+     nav{
+        width:100%;
+        height:15vh;
+           display: flex;
+           float:right;
+           justify-content: space-between;
+     }
+     .logo{
+            float: left;
+              font-size: 40px;
+               color: white;
+               text-transform: uppercase;
+               font-weight: bolder;
+
+
+     }
+     .navbar{
+            list-style: none;
+
+     }
+        .navbar li{
+            display: inline-block; 
+              padding-left: 10px;
+              margin-right: 10px;
+        }
+        .navbar li a{
+               text-decoration: none;
+                text-transform: uppercase;
+                font-size: 25px; 
+                   color: white; 
+                  font-weight: bolder;      }
+         
+                   .navbar li a:hover{
+                         border-bottom: 2px solid tomato;
+                         color: yellow;
+                   }
+                     .main-content{
+                             color: white;
+                               margin-left: 40%;
+                     }
+
+    .main{
+          color: tomato;
+           font-size: 50px;
+           margin-bottom: 20px;
+           text-transform: uppercase;
+    }
+     .color{
+            animation: sahil 2s infinite;
+     }
+      @keyframes sahil {
+        0%  {color: red;}
+        25%  {color: blue;}
+         50% {color:greenyellow;}
+          75%{color: yellow;}
+         100% {color: pink;}
+      }
+      .para{
+        color:white;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+          line-height: 30px;
+            
+      }
+         .btn{
+               border: 2px solid purple;
+                color:white;
+                 padding: 10px;
+                background-color: black;
+                  border-radius: 10px;
+                   font-size: 30px;
+                   text-decoration: none;
+         }
+         .btn2{
+            border: 2px solid white;
+            color:white;
+             padding: 10px;
+            background-color: black;
+              border-radius: 10px;
+               font-size: 30px;
+                margin-left: 10px;
+                text-decoration: none;
+
+         }
+         .btn:hover{
+                background-color: rgb(247, 19, 247);
+             
+         }
+         .btn2:hover{
+            background-color: white;
+            color: black;
+         
+     }
+      #icons{
+             text-align: center;
+              border-bottom: 20px;
+              justify-content: center;
+              align-items: center;
+               
+      }
+      .icon-menu{
+       width:100%;
+       height:20vh;
+          display: flex;
+          float:right;
+          justify-content: space-between;
+
+      }
+      .fa fa-car{
+               font-size: 30px;
+      }
+      .mobile-icons{
+                display: inline-block;
+                color: white;
+                margin-right:10px ;
+                margin-top: 10px;
+                font-size: 30px;
+                display: none;
+      }
+      
+       .icon-link{
+               color: white;
+               background-color: blue;
+                margin-left: 10px;
+                padding: 10px;
+       }
+       .icon-link2{
+              color: white;
+              background-color: green;
+               margin-left: 10px;
+               padding: 10px;
+
+      }
+
+      .icon-link3{
+       color: white;
+       background-color: yellow;
+        margin-right: 10px;
+        padding: 10px;
+        width: 30%;
+}
+        i{
+               font-size: 40px;
+        }
+	  
+	  
+	  
+	    </style>
+</head>
+<body>
+       <header>
+           <nav>
+               <div class="logo">
+                Sahil Cafe
+               </div>
+            <ul class="navbar">
+                 <li><a href=""> All menus</a></li>
+                 <li><a href=""> Book now</a></li>
+                 <li><a href=""> Order now us</a></li>
+                 <li><a href=""> Help</a></li>
+                 <li><a href=""> website</a></li>
+            </ul> 
+             
+         </nav>
+            <div class="main-content">
+            <h1 class="main">WELCOME TO THE CAFE OF<BR>
+                THE <span class="color">Sahil MATHUR </span>
+            </h1>
+               <P class="para"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque consequuntur fugiat rerum laborum quam corporis iusto in iure quasi eligendi illum, velit dolorum sunt quis laboriosam voluptates quas distinctio neque.</P>
+            <a href="" class="btn"> Booking Online</a>
+              <a href="" class="btn2">first 50%off</a>
+            </div>
+            </header>
+                 
+                          
+                      
+         
+</body>
+</html>
